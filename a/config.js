@@ -209,6 +209,37 @@ System.config({
       "indexof": "npm:indexof@0.0.1"
     }
   },
+  depCache: {
+    "blur-image.js": [
+      "aurelia-framework"
+    ],
+    "bootstrap-form-renderer.js": [
+      "aurelia-validation"
+    ],
+    "configs/app.js": [
+      "./environment"
+    ],
+    "forgot-reset.js": [
+      "aurelia-framework",
+      "aurelia-fetch-client",
+      "services/api-client",
+      "aurelia-validation",
+      "bootstrap-form-renderer"
+    ],
+    "main.js": [
+      "bootstrap"
+    ],
+    "password-confirmation.js": [
+      "aurelia-framework",
+      "aurelia-fetch-client",
+      "services/api-client"
+    ],
+    "services/api-client.js": [
+      "aurelia-framework",
+      "aurelia-fetch-client",
+      "../configs/app"
+    ]
+  },
   bundles: {
     "app-build.js": [
       "app.html!github:systemjs/plugin-text@0.0.8.js",
@@ -336,37 +367,6 @@ System.config({
       "npm:aurelia-validation@1.0.0-beta.1.0.1/validator.js",
       "npm:jquery@2.2.4.js",
       "npm:jquery@2.2.4/dist/jquery.js"
-    ]
-  },
-  depCache: {
-    "blur-image.js": [
-      "aurelia-framework"
-    ],
-    "bootstrap-form-renderer.js": [
-      "aurelia-validation"
-    ],
-    "configs/app.js": [
-      "./environment"
-    ],
-    "forgot-reset.js": [
-      "aurelia-framework",
-      "aurelia-fetch-client",
-      "services/api-client",
-      "aurelia-validation",
-      "bootstrap-form-renderer"
-    ],
-    "main.js": [
-      "bootstrap"
-    ],
-    "password-confirmation.js": [
-      "aurelia-framework",
-      "aurelia-fetch-client",
-      "services/api-client"
-    ],
-    "services/api-client.js": [
-      "aurelia-framework",
-      "aurelia-fetch-client",
-      "../configs/app"
     ]
   }
 });
