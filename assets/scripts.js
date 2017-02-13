@@ -1,6 +1,7 @@
 $("#share").jsSocials({
     showLabel: false,
     showCount: false,
+    shareIn: "popup",
     shares: ["facebook", "googleplus", "twitter", "linkedin", "pinterest", "stumbleupon", "whatsapp", "email"]
 });
 
