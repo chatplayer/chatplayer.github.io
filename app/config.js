@@ -2469,6 +2469,10 @@ System.config({
       "aurelia-framework",
       "aurelia-event-aggregator"
     ],
+    "customelements/msg-content.js": [
+      "aurelia-framework",
+      "../configs/chat"
+    ],
     "customelements/player-controls.js": [
       "aurelia-framework",
       "aurelia-event-aggregator",
@@ -2562,7 +2566,7 @@ System.config({
     "valueconverters/date-format.js": [
       "moment"
     ],
-    "valueconverters/date-from-now.js": [
+    "valueconverters/date-from.js": [
       "moment"
     ],
     "weblib.js": [
@@ -2573,7 +2577,7 @@ System.config({
       "services/googleapis-client",
       "aurelia-router",
       "events/player",
-      "fetch"
+      "moment"
     ]
   },
   bundles: {
@@ -2596,6 +2600,8 @@ System.config({
       "customattributes/yt-player.js",
       "customelements/html5-player.html!github:systemjs/plugin-text@0.0.8.js",
       "customelements/html5-player.js",
+      "customelements/msg-content.html!github:systemjs/plugin-text@0.0.8.js",
+      "customelements/msg-content.js",
       "customelements/player-controls.html!github:systemjs/plugin-text@0.0.8.js",
       "customelements/player-controls.js",
       "electron.js",
@@ -2628,7 +2634,7 @@ System.config({
       "user.js",
       "utility.js",
       "valueconverters/date-format.js",
-      "valueconverters/date-from-now.js",
+      "valueconverters/date-from.js",
       "valueconverters/properties.js",
       "valueconverters/take.js",
       "weblib.html!github:systemjs/plugin-text@0.0.8.js",

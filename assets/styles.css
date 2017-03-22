@@ -30,6 +30,7 @@ h4 {
   text-transform: uppercase;
   font-size:1.8rem;
 }
+
 section .container, section .offers {
   padding:5rem 0;
 }
@@ -48,10 +49,15 @@ section .container, section .offers {
     margin-bottom:7rem;
 }
 
+.features h3 {
+  font-size:2.3rem;
+}
+
 .features .col{
   height:300px;
   visibility:visible;
 }
+
 .hidden {
   visibility:hidden;
 }
@@ -70,4 +76,21 @@ footer.page-footer .footer-copyright {
 footer.page-footer img {
   width:50px;
   height:auto;
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size:3.8rem;
+    margin-top: 1.1rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  .features {
+    margin-bottom:4rem;
+  }
+  .features .col {
+    height:auto;
+    text-align: center;
+  }
 }
