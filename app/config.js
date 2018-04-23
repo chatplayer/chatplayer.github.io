@@ -2453,7 +2453,9 @@ System.config({
       "aurelia-framework",
       "aurelia-authentication",
       "services/settings",
-      "configs/platform"
+      "services/shared-state",
+      "configs/platform",
+      "aurelia-router"
     ],
     "blur-image.js": [
       "aurelia-framework"
@@ -2606,6 +2608,7 @@ System.config({
       "aurelia-framework",
       "aurelia-router",
       "../configs/platform",
+      "../services/shared-state",
       "fetch"
     ],
     "partials/nav-bar.js": [
@@ -2758,6 +2761,7 @@ System.config({
       "services/http-client-with-auth.js",
       "services/search-client.js",
       "services/settings.js",
+      "services/shared-state.js",
       "services/spotify-client.js",
       "services/user-service.js",
       "services/users-channel.js",
