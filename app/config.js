@@ -2454,6 +2454,7 @@ System.config({
       "aurelia-authentication",
       "services/settings",
       "services/shared-state",
+      "services/web-notification",
       "configs/platform",
       "aurelia-router"
     ],
@@ -2576,7 +2577,8 @@ System.config({
       "aurelia-authentication",
       "../utility",
       "fetch",
-      "moment"
+      "moment",
+      "services/web-notification"
     ],
     "pages/weblib.js": [
       "aurelia-framework",
@@ -2587,6 +2589,7 @@ System.config({
       "../events/player",
       "../events/room",
       "aurelia-router",
+      "services/player_history",
       "moment"
     ],
     "partials/follow-notify.js": [
@@ -2619,6 +2622,10 @@ System.config({
       "aurelia-framework",
       "aurelia-event-aggregator",
       "events/user"
+    ],
+    "partials/recent-plays.js": [
+      "aurelia-framework",
+      "services/player_history"
     ],
     "partials/signup.js": [
       "aurelia-framework",
@@ -2662,6 +2669,10 @@ System.config({
       "../configs/chat",
       "aurelia-authentication"
     ],
+    "services/player_history.js": [
+      "aurelia-framework",
+      "nedb-promise"
+    ],
     "services/search-client.js": [
       "aurelia-framework"
     ],
@@ -2684,6 +2695,12 @@ System.config({
       "services/http-client-with-auth",
       "aurelia-event-aggregator",
       "events/user"
+    ],
+    "services/web-notification.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "events/user",
+      "events/room"
     ],
     "valueconverters/date-format.js": [
       "moment"
@@ -2750,6 +2767,8 @@ System.config({
       "partials/nav-bar.js",
       "partials/private-message-notify.html!github:systemjs/plugin-text@0.0.8.js",
       "partials/private-message-notify.js",
+      "partials/recent-plays.html!github:systemjs/plugin-text@0.0.8.js",
+      "partials/recent-plays.js",
       "partials/signup.html!github:systemjs/plugin-text@0.0.8.js",
       "partials/signup.js",
       "partials/user-profile.html!github:systemjs/plugin-text@0.0.8.js",
@@ -2759,12 +2778,14 @@ System.config({
       "services/googleapis-client.js",
       "services/http-client-json.js",
       "services/http-client-with-auth.js",
+      "services/player_history.js",
       "services/search-client.js",
       "services/settings.js",
       "services/shared-state.js",
       "services/spotify-client.js",
       "services/user-service.js",
       "services/users-channel.js",
+      "services/web-notification.js",
       "utility.js",
       "valueconverters/cut-text.js",
       "valueconverters/date-format.js",
