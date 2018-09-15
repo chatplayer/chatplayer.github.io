@@ -2448,267 +2448,6 @@ System.config({
       "sister": "npm:sister@3.0.0"
     }
   },
-  depCache: {
-    "app.js": [
-      "aurelia-framework",
-      "aurelia-authentication",
-      "services/settings",
-      "services/shared-state",
-      "services/web-notification",
-      "configs/platform",
-      "aurelia-router"
-    ],
-    "blur-image.js": [
-      "aurelia-framework"
-    ],
-    "bootstrap-form-renderer.js": [
-      "aurelia-validation"
-    ],
-    "configs/auth.js": [
-      "./environment",
-      "./chat"
-    ],
-    "configs/chat.js": [
-      "./environment"
-    ],
-    "customattributes/enter-press.js": [
-      "aurelia-framework"
-    ],
-    "customattributes/infinite-scroll.js": [
-      "aurelia-framework"
-    ],
-    "customattributes/open-in-browser.js": [
-      "aurelia-framework",
-      "../configs/platform"
-    ],
-    "customattributes/popover.js": [
-      "aurelia-framework"
-    ],
-    "customattributes/sidebar-toggle.js": [
-      "aurelia-framework"
-    ],
-    "customattributes/yt-player.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator"
-    ],
-    "customelements/html5-player.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator"
-    ],
-    "customelements/msg-content.js": [
-      "aurelia-framework",
-      "../configs/chat"
-    ],
-    "customelements/player-controls.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator",
-      "../events/player",
-      "../events/room",
-      "../utility"
-    ],
-    "customelements/user-label.js": [
-      "aurelia-framework",
-      "services/http-client-with-auth",
-      "aurelia-event-aggregator",
-      "events/user"
-    ],
-    "main.js": [
-      "jquery",
-      "bootstrap-sass",
-      "configs/auth",
-      "configs/chat",
-      "configs/environment",
-      "services/http-client-json"
-    ],
-    "pages/chat.js": [
-      "aurelia-framework",
-      "services/cable",
-      "aurelia-authentication",
-      "configs/platform",
-      "aurelia-event-aggregator",
-      "events/user",
-      "services/user-service",
-      "services/users-channel",
-      "services/follows-channel"
-    ],
-    "pages/favorites.js": [
-      "aurelia-framework",
-      "aurelia-fetch-client",
-      "services/http-client-with-auth"
-    ],
-    "pages/fullscreen-login.js": [
-      "aurelia-framework"
-    ],
-    "pages/library.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator",
-      "../events/player",
-      "aurelia-fetch-client",
-      "fetch",
-      "fs",
-      "node-dir",
-      "nedb-promise",
-      "musicmetadata"
-    ],
-    "pages/private-chats.js": [
-      "aurelia-framework",
-      "aurelia-fetch-client",
-      "services/http-client-with-auth",
-      "aurelia-event-aggregator",
-      "../events/user"
-    ],
-    "pages/private-room.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator",
-      "../events/user",
-      "../services/cable",
-      "../services/settings",
-      "aurelia-authentication",
-      "../utility",
-      "fetch",
-      "moment"
-    ],
-    "pages/room.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator",
-      "events/room",
-      "services/cable",
-      "services/settings",
-      "aurelia-authentication",
-      "../utility",
-      "fetch",
-      "moment",
-      "services/web-notification"
-    ],
-    "pages/weblib.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator",
-      "aurelia-fetch-client",
-      "../services/search-client",
-      "../services/googleapis-client",
-      "../events/player",
-      "../events/room",
-      "aurelia-router",
-      "services/player_history",
-      "moment"
-    ],
-    "partials/follow-notify.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator",
-      "events/user",
-      "events/room",
-      "events/player"
-    ],
-    "partials/forgot.js": [
-      "aurelia-framework",
-      "aurelia-fetch-client",
-      "../services/http-client-with-auth",
-      "aurelia-validation",
-      "../bootstrap-form-renderer"
-    ],
-    "partials/login.js": [
-      "aurelia-authentication",
-      "aurelia-framework",
-      "aurelia-router",
-      "../configs/platform",
-      "../services/shared-state",
-      "fetch"
-    ],
-    "partials/nav-bar.js": [
-      "aurelia-framework",
-      "services/settings"
-    ],
-    "partials/private-message-notify.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator",
-      "events/user"
-    ],
-    "partials/recent-plays.js": [
-      "aurelia-framework",
-      "services/player_history"
-    ],
-    "partials/signup.js": [
-      "aurelia-framework",
-      "aurelia-authentication",
-      "fetch",
-      "aurelia-validation",
-      "../bootstrap-form-renderer"
-    ],
-    "partials/user-profile.js": [
-      "aurelia-framework",
-      "aurelia-fetch-client",
-      "aurelia-authentication",
-      "services/user-service",
-      "aurelia-validation",
-      "../bootstrap-form-renderer"
-    ],
-    "services/cable.js": [
-      "es6-actioncable",
-      "../configs/chat"
-    ],
-    "services/follows-channel.js": [
-      "aurelia-framework",
-      "services/cable",
-      "aurelia-authentication",
-      "services/http-client-with-auth",
-      "aurelia-event-aggregator",
-      "events/user"
-    ],
-    "services/googleapis-client.js": [
-      "aurelia-framework",
-      "../configs/platform",
-      "services/http-client-json"
-    ],
-    "services/http-client-json.js": [
-      "aurelia-framework",
-      "aurelia-fetch-client"
-    ],
-    "services/http-client-with-auth.js": [
-      "aurelia-framework",
-      "aurelia-fetch-client",
-      "../configs/chat",
-      "aurelia-authentication"
-    ],
-    "services/player_history.js": [
-      "aurelia-framework",
-      "nedb-promise"
-    ],
-    "services/search-client.js": [
-      "aurelia-framework"
-    ],
-    "services/settings.js": [
-      "aurelia-framework",
-      "nedb-promise"
-    ],
-    "services/spotify-client.js": [
-      "aurelia-framework"
-    ],
-    "services/user-service.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator",
-      "aurelia-authentication"
-    ],
-    "services/users-channel.js": [
-      "aurelia-framework",
-      "services/cable",
-      "aurelia-authentication",
-      "services/http-client-with-auth",
-      "aurelia-event-aggregator",
-      "events/user"
-    ],
-    "services/web-notification.js": [
-      "aurelia-framework",
-      "aurelia-event-aggregator",
-      "events/user",
-      "events/room"
-    ],
-    "valueconverters/date-format.js": [
-      "moment"
-    ],
-    "valueconverters/date-from.js": [
-      "moment"
-    ]
-  },
   bundles: {
     "app-build.js": [
       "app.html!github:systemjs/plugin-text@0.0.8.js",
@@ -2998,6 +2737,267 @@ System.config({
       "npm:util@0.10.3.js",
       "npm:util@0.10.3/support/isBufferBrowser.js",
       "npm:util@0.10.3/util.js"
+    ]
+  },
+  depCache: {
+    "app.js": [
+      "aurelia-framework",
+      "aurelia-authentication",
+      "services/settings",
+      "services/shared-state",
+      "services/web-notification",
+      "configs/platform",
+      "aurelia-router"
+    ],
+    "blur-image.js": [
+      "aurelia-framework"
+    ],
+    "bootstrap-form-renderer.js": [
+      "aurelia-validation"
+    ],
+    "configs/auth.js": [
+      "./environment",
+      "./chat"
+    ],
+    "configs/chat.js": [
+      "./environment"
+    ],
+    "customattributes/enter-press.js": [
+      "aurelia-framework"
+    ],
+    "customattributes/infinite-scroll.js": [
+      "aurelia-framework"
+    ],
+    "customattributes/open-in-browser.js": [
+      "aurelia-framework",
+      "../configs/platform"
+    ],
+    "customattributes/popover.js": [
+      "aurelia-framework"
+    ],
+    "customattributes/sidebar-toggle.js": [
+      "aurelia-framework"
+    ],
+    "customattributes/yt-player.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator"
+    ],
+    "customelements/html5-player.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator"
+    ],
+    "customelements/msg-content.js": [
+      "aurelia-framework",
+      "../configs/chat"
+    ],
+    "customelements/player-controls.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "../events/player",
+      "../events/room",
+      "../utility"
+    ],
+    "customelements/user-label.js": [
+      "aurelia-framework",
+      "services/http-client-with-auth",
+      "aurelia-event-aggregator",
+      "events/user"
+    ],
+    "main.js": [
+      "jquery",
+      "bootstrap-sass",
+      "configs/auth",
+      "configs/chat",
+      "configs/environment",
+      "services/http-client-json"
+    ],
+    "pages/chat.js": [
+      "aurelia-framework",
+      "services/cable",
+      "aurelia-authentication",
+      "configs/platform",
+      "aurelia-event-aggregator",
+      "events/user",
+      "services/user-service",
+      "services/users-channel",
+      "services/follows-channel"
+    ],
+    "pages/favorites.js": [
+      "aurelia-framework",
+      "aurelia-fetch-client",
+      "services/http-client-with-auth"
+    ],
+    "pages/fullscreen-login.js": [
+      "aurelia-framework"
+    ],
+    "pages/library.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "../events/player",
+      "aurelia-fetch-client",
+      "fetch",
+      "fs",
+      "node-dir",
+      "nedb-promise",
+      "musicmetadata"
+    ],
+    "pages/private-chats.js": [
+      "aurelia-framework",
+      "aurelia-fetch-client",
+      "services/http-client-with-auth",
+      "aurelia-event-aggregator",
+      "../events/user"
+    ],
+    "pages/private-room.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "../events/user",
+      "../services/cable",
+      "../services/settings",
+      "aurelia-authentication",
+      "../utility",
+      "fetch",
+      "moment"
+    ],
+    "pages/room.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "events/room",
+      "services/cable",
+      "services/settings",
+      "aurelia-authentication",
+      "../utility",
+      "fetch",
+      "moment",
+      "services/web-notification"
+    ],
+    "pages/weblib.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "aurelia-fetch-client",
+      "../services/search-client",
+      "../services/googleapis-client",
+      "../events/player",
+      "../events/room",
+      "aurelia-router",
+      "services/player_history",
+      "moment"
+    ],
+    "partials/follow-notify.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "events/user",
+      "events/room",
+      "events/player"
+    ],
+    "partials/forgot.js": [
+      "aurelia-framework",
+      "aurelia-fetch-client",
+      "../services/http-client-with-auth",
+      "aurelia-validation",
+      "../bootstrap-form-renderer"
+    ],
+    "partials/login.js": [
+      "aurelia-authentication",
+      "aurelia-framework",
+      "aurelia-router",
+      "../configs/platform",
+      "../services/shared-state",
+      "fetch"
+    ],
+    "partials/nav-bar.js": [
+      "aurelia-framework",
+      "services/settings"
+    ],
+    "partials/private-message-notify.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "events/user"
+    ],
+    "partials/recent-plays.js": [
+      "aurelia-framework",
+      "services/player_history"
+    ],
+    "partials/signup.js": [
+      "aurelia-framework",
+      "aurelia-authentication",
+      "fetch",
+      "aurelia-validation",
+      "../bootstrap-form-renderer"
+    ],
+    "partials/user-profile.js": [
+      "aurelia-framework",
+      "aurelia-fetch-client",
+      "aurelia-authentication",
+      "services/user-service",
+      "aurelia-validation",
+      "../bootstrap-form-renderer"
+    ],
+    "services/cable.js": [
+      "es6-actioncable",
+      "../configs/chat"
+    ],
+    "services/follows-channel.js": [
+      "aurelia-framework",
+      "services/cable",
+      "aurelia-authentication",
+      "services/http-client-with-auth",
+      "aurelia-event-aggregator",
+      "events/user"
+    ],
+    "services/googleapis-client.js": [
+      "aurelia-framework",
+      "../configs/platform",
+      "services/http-client-json"
+    ],
+    "services/http-client-json.js": [
+      "aurelia-framework",
+      "aurelia-fetch-client"
+    ],
+    "services/http-client-with-auth.js": [
+      "aurelia-framework",
+      "aurelia-fetch-client",
+      "../configs/chat",
+      "aurelia-authentication"
+    ],
+    "services/player_history.js": [
+      "aurelia-framework",
+      "nedb-promise"
+    ],
+    "services/search-client.js": [
+      "aurelia-framework"
+    ],
+    "services/settings.js": [
+      "aurelia-framework",
+      "nedb-promise"
+    ],
+    "services/spotify-client.js": [
+      "aurelia-framework"
+    ],
+    "services/user-service.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "aurelia-authentication"
+    ],
+    "services/users-channel.js": [
+      "aurelia-framework",
+      "services/cable",
+      "aurelia-authentication",
+      "services/http-client-with-auth",
+      "aurelia-event-aggregator",
+      "events/user"
+    ],
+    "services/web-notification.js": [
+      "aurelia-framework",
+      "aurelia-event-aggregator",
+      "events/user",
+      "events/room"
+    ],
+    "valueconverters/date-format.js": [
+      "moment"
+    ],
+    "valueconverters/date-from.js": [
+      "moment"
     ]
   }
 });
